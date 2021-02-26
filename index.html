@@ -5,10 +5,31 @@
         <title>Projeto HTML</title>
     </head>
     <body>
-        <img src="/Assets/img/clickbaitbackground.jpg"/>
-<h1>Voce ganhou um PC Gamer</h1>
-<p>Para resceber seu premio digite seu cartão, senha e aperte em enviar</p>
-<p>Não é click bait!! Vai fundo! </p>
-    </body>
+        <style>
+            body {
+              background-image: url(https://images-ext-2.discordapp.net/external/y7ZwYVnPLUZBNwDOOHT1dUJcfP1h07mBxHWnO5K48Dw/https/i.pinimg.com/originals/62/c9/3a/62c93a4cf6462f54fdea6d735d927f9c.gif?width=640&height=480);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+</style>
+<center><h1 style="color:cyan">Voce esta pronto para entrar na Matrix?</h1>
+<p style="color:cyan">Ensira seu Nome e Email abaixo!</p>
+<form style="display:flex;justify-content: center;align-items: center;flex-direction: column;" action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label style="color: cyan;" for="name">Nome:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label style="color: cyan;" for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div class="button">
+        <button style="color: red;" type="submit">Entrar na Matrix</button>
+    </div>
+</form>
+<p style="color:crimson">Não é click bait!! Vai fundo!</p></center>
+
+</body>
     
 </html>
