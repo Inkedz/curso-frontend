@@ -1,10 +1,52 @@
+.texto{
+color:rgb(255, 255, 255);
+}
+
+body {
+    background-image: url(./Assets/img/pedra-do-cume.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
 .Primeiro{
-    
-color: crimson;
-margin-left: 100;
-margin-right: 100;
-margin-top: 10;
-bototom margin: 10;
+opacity: 80%;
+background-color: rgb(73, 69, 69);
+position: relative;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+width: 600px;
+height: 100%;
+}
+
+.Segundo{
+opacity: 80%;
+position: relative;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+width: 600px;
+height: 100%;
+}
+
+.Terceiro{
+opacity: 80%;
+background-color: rgb(73, 69, 69);
+position: relative;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+width: 600px;
+height: 100%;
+}
+.Corpo{ display: flex;justify-content: space-around; flex: 1;
+
 
 }
-.
