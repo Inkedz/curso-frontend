@@ -1,9 +1,12 @@
 .texto{
-color:rgb(255, 255, 255);
+color:rgb(0, 255, 64);
+font-family: 'Trebuchet MS';
+font-size: 22px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
 body {
-    background-image: url(./Assets/img/pedra-do-cume.jpg);
+    background-image: url(../Assets/img/pedra-do-cume.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -12,7 +15,6 @@ body {
 .Primeiro{
 opacity: 80%;
 background-color: rgb(73, 69, 69);
-position: relative;
 margin-left: 100px;
 margin-right: 100px;
 margin-top: 10px;
@@ -20,11 +22,12 @@ margin-bottom: 10px;
 font-size: 18px;
 width: 600px;
 height: 100%;
+padding-right: 60%;
+
 }
 
 .Segundo{
 opacity: 80%;
-position: relative;
 margin-left: 100px;
 margin-right: 100px;
 margin-top: 10px;
@@ -32,12 +35,14 @@ margin-bottom: 10px;
 font-size: 18px;
 width: 600px;
 height: 100%;
+padding-left: 60%;
+text-align: right;
+
 }
 
 .Terceiro{
 opacity: 80%;
 background-color: rgb(73, 69, 69);
-position: relative;
 margin-left: 100px;
 margin-right: 100px;
 margin-top: 10px;
@@ -45,8 +50,11 @@ margin-bottom: 10px;
 font-size: 18px;
 width: 600px;
 height: 100%;
+padding-right: 60%;
+
 }
-.Corpo{ display: flex;justify-content: space-around; flex: 1;
-
-
+.Corpo{ display: flex;
+justify-content: space-around; 
+flex: 1;
+flex-direction: column;
 }
